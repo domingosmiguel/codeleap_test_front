@@ -11,7 +11,7 @@ import useForm from '../useForm';
 export default function useModalEdit(post) {
   const [isOpen, setIsOpen] = useState(false);
   const [disableButton, setDisableButton] = useState(true);
-  const [form, updateForm] = useForm({
+  const [form, updateForm, clearForm] = useForm({
     tittle: '',
     content: '',
   });
@@ -57,13 +57,14 @@ export default function useModalEdit(post) {
   const modalText = {
     tittle: 'Edit Item',
     body,
-    btn1Txt: 'Save',
-    btn2Txt: 'Cancel',
+    actionText: 'Save',
+    cancelText: 'Cancel',
   };
 
   const editModalProps = {
     action: async () => {
       await editPost(post.id, form.tittle, form.content);
+      clearForm();
       closeModal();
     },
     closeModal: closeModal,

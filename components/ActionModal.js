@@ -37,7 +37,7 @@ export default function ActionModal({
             onClick={action}
             backgroundColor={actionButtonColor}
           >
-            {modalData.confirmText}
+            {modalData.actionText}
           </ActionButton>
         </ModalFooter>
       </ModalContent>

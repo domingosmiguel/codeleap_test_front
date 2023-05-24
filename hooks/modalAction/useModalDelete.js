@@ -19,8 +19,8 @@ export default function useModalDelete(postId) {
   const modalText = {
     tittle: 'Delete post',
     body: 'Are you sure you want to delete this item? This action cannot be undone.',
-    btn1Txt: 'Delete',
-    btn2Txt: 'Cancel',
+    actionText: 'Delete',
+    cancelText: 'Cancel',
   };
 
   const deleteModalProps = {
