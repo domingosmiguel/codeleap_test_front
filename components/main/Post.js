@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { BiEdit } from 'react-icons/bi';
 import { MdDeleteForever } from 'react-icons/md';
-import { css, styled } from 'styled-components';
+import styled, { css } from 'styled-components';
 import { StyledHeader } from '../styles';
 
 export default function Post({

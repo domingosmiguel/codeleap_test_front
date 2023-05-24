@@ -7,7 +7,7 @@ import usePosts from '@/hooks/api/usePosts';
 import useModalDelete from '@/hooks/modalAction/useModalDelete';
 import useModalEdit from '@/hooks/modalAction/useModalEdit';
 import { useEffect, useState } from 'react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
 export default function Main() {
   const [data, setData] = useState(CopiedData);

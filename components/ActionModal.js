@@ -8,7 +8,7 @@ import {
   ModalHeader,
   ModalOverlay,
 } from '@chakra-ui/react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 import ActionButton from './ActionButton';
 
 export default function ActionModal({

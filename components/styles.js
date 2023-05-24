@@ -1,4 +1,4 @@
-import { css, styled } from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const InputTittle = styled.div`
   margin-bottom: 0.5rem;

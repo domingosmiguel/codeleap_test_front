@@ -5,7 +5,7 @@ import { InputTittle, StyledInput } from '@/components/styles';
 import useForm from '@/hooks/useForm';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
 export default function Home() {
   const router = useRouter();

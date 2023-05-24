@@ -4,7 +4,7 @@ import ActionButton from '@/components/ActionButton';
 import useNewPost from '@/hooks/api/useNewPost';
 import useForm from '@/hooks/useForm';
 import { useEffect, useState } from 'react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 import { InputTittle, StyledInput, StyledTextarea } from '../styles';
 
 export default function NewPost() {
